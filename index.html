@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Ciche grzyby</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+		  rel="stylesheet">
+</head>
+<body>
+<section class="banner" id="sec">
+	<header>
+		<a href="" class="logo">CicheLOGO</a>
+		<div id="toggle" onclick="toggle()"></div>
+	</header>
+	<div class="content">
+		<h2>Hello Grzyby,<br>I'm <span>Cichy Grzyb xd</span></h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			Deserunt error itaque laboriosam optio, provident sit
+			voluptates. Aspernatur at commodi eum magni
+			mollitia perspiciatis placeat,
+			velit? Magnam molestiae natus neque! Enim?
+			Lorem ipsum dolor sit amet,
+			consectetur adipisicing elit. Corporis, tenetur.</p>
+		<a href="#">Know More</a>
+	</div>
+	<ul class="sci">
+		<li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+		<li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+		<li><a href="#"><img src="images/linkedin.png" alt="linkedin"></a></li>
+
+	</ul>
+</section>
+<div id="navigation">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Services</a></li>
+		<li><a href="#">Portfolio</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</div>
+<script type="text/javascript">
+	function toggle(){
+	    var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+	    sec.classList.toggle('active')
+        nav.classList.toggle('active')
+	}
+</script>
+</body>
+</html>
